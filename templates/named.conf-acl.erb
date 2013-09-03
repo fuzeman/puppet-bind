@@ -1,0 +1,7 @@
+// This file is managed by Puppet. DO NOT EDIT.
+
+acl <%= @name %> {
+<% @addresses.each do |address|-%>
+    <%= address %>;
+<% end -%>
+};

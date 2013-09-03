@@ -116,6 +116,7 @@ define bind::zone(
   $zone_ns        = '',
   $zone_master    = '',
   $zone_forward   = '',
+  $zone_allow_transfer = '',
   $absent         = false,
   $template       = 'bind/zone-header.erb',
   $export_tag     = ''

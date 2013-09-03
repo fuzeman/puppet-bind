@@ -15,4 +15,7 @@ zone "<%= @zone_name %>" {
 <% end -%>
   };
 <% end -%>
+<% if @zone_allow_transfer != '' -%>
+  allow-transfer { <%= @zone_allow_transfer %>; };
+<% end -%>
 };
